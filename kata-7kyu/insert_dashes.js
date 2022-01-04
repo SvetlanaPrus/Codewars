@@ -7,7 +7,7 @@ function insertDash(num) {
             newArray.push(strArray[i]);
             break;
         } else if( strArray[i] % 2 !== 0 && strArray[i+1] % 2 !== 0 ) {
-            newArray.push(strArray[i]+"-");
+            newArray.push(strArray[i]+'-');
         } else {
             newArray.push(strArray[i]);
         }
