@@ -23,3 +23,17 @@ function countSmileys(arr) {             // Input: [':D',':~)',';~D',':)']
     return count;
 }
 
+
+// 2nd solution: Refactoring, with reg.expression -
+function countSmileys(arr) {
+    const reg = /[:;]{1}[-~]?[)D]{1}/;
+    let array = [];
+
+    for (const str of arr) {
+        if (str.match(reg)) array.push(str);
+    }
+    return array.length;
+}
+
+
+
