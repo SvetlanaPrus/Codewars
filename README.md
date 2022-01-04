@@ -1,8 +1,8 @@
 # ✨ Codewars 2022 ✨
 ### Repository to store my solutions for Codewars katas.
+
 >
->
->👉 <a target="_blank" href="https://www.codewars.com/users/SvetlanaPrus">
+>👉<a target="_blank" href="https://www.codewars.com/users/SvetlanaPrus">
 ><img src="https://www.codewars.com/users/SvetlanaPrus/badges/large" alt="Codewars"/>
 ></a> 
 
