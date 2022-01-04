@@ -1,5 +1,5 @@
 # ✨ Codewars 2022 ✨
-###Repository to store my solutions for Codewars katas.
+### Repository to store my solutions for Codewars katas.
 >
 >
 >👉 <a target="_blank" href="https://www.codewars.com/users/SvetlanaPrus">
