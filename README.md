@@ -7,7 +7,4 @@ Other my repository:
 
 
 ___
-👉<a target="_blank" href="https://www.codewars.com/users/SvetlanaPrus">
-<img src="https://www.codewars.com/users/SvetlanaPrus/badges/large" alt="Codewars"/>
-</a> 
 
