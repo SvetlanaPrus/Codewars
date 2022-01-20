@@ -38,3 +38,15 @@ function box(num) {
 //
 //     return result;
 // }
+
+// Version 3 -
+// function box(num) {
+//     const fullStr = '-'.repeat(num);  // str
+//     const emptyStr = `-${' '.repeat(num - 2)}-`;
+//     const result = Array(num - 2).fill(emptyStr);
+//
+//     result.push(fullStr);
+//     result.unshift(fullStr);
+//
+//     return result;
+// }
