@@ -39,6 +39,7 @@ function box(num) {
 //     return result;
 // }
 
+
 // Version 3 -
 // function box(num) {
 //     const fullStr = '-'.repeat(num);  // str
@@ -49,4 +50,14 @@ function box(num) {
 //     result.unshift(fullStr);
 //
 //     return result;
+// }
+
+
+// Version 4 -
+// function box(num) {
+//     const fullStr = '-'.repeat(num);
+//     const emptyStr = `-${' '.repeat(num-2)}-`;
+//
+//     // pay attention to how the array (created along the way) is expanded...
+//     return [fullStr, ...Array(num-2).fill(emptyStr), fullStr];
 // }
