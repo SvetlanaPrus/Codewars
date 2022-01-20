@@ -10,3 +10,10 @@ function flattenAndSort(arr) {
 
     return result;
 }
+
+// Version 2 -
+// "use strict";
+//
+// function flattenAndSort(arr) {
+//     return [].concat(...arr).sort((a,b) => a - b);
+// }
