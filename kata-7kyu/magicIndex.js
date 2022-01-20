@@ -6,3 +6,8 @@ function findMagic(arr) {
     }
     return -1;
 }
+
+// Version 2 -
+// function findMagic(arr){
+//     return arr.findIndex((el,i) => el === i);
+// }
