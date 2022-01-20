@@ -20,3 +20,21 @@ function box(num) {
     }
     return result;
 }
+
+// Version 2 -
+// function box(num){
+//     const result = [];
+//
+//     const fullStr = '-'.repeat(num);  // str
+//     const emptyStr = `-${' '.repeat(num-2)}-`;
+//
+//     for(let i = 0; i < num; i++){
+//         if(i === 0 || i === num-1){
+//             result.push(fullStr);
+//         } else {
+//             result.push(emptyStr);
+//         }
+//     }
+//
+//     return result;
+// }
