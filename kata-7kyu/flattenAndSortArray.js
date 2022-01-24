@@ -17,3 +17,15 @@ function flattenAndSort(arr) {
 // function flattenAndSort(arr) {
 //     return [].concat(...arr).sort((a,b) => a - b);
 // }
+
+
+// Version 3 -
+// "use strict";
+//
+// function flattenAndSort(arr) {
+//     const result = arr
+//         .flat()
+//         .sort((a, b) => a - b);
+//
+//     return result;
+// }
