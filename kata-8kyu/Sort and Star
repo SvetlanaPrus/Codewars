@@ -1,0 +1,28 @@
+//Sort and Star:
+//You will be given a list of strings. You must sort it alphabetically (case-sensitive, and based on the ASCII values of the chars) 
+//and then return the first value. The returned value must be a string, and have "***" between each of its letters.
+//You should not remove or add elements from/to the array.
+
+
+//My 2nd solution:
+function twoSort(arr) {
+  return arr.sort()[0].split("").join("***")
+}
+
+//My 1st solution:
+function twoSort(arr) {
+  const target = arr[0];
+  const leftList = [];
+  const rightList = [];
+  
+  for(let i=1; i<arr.length; i++){
+    arr[i] < target? leftList.push(arr[i]) : rightList.push(arr[i])
+  }
+  
+  const newArray = [...leftList.sort(), target, ...rightList.sort()];
+  arr.forEach((_, index) => arr[index] = newArray[index]);
+  
+  const result = arr[0].split("").map((letter,_) => letter+"***").join("").slice(0, -3);
+  
+  return result;
+}
