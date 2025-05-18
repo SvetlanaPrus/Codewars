@@ -1,0 +1,22 @@
+// Exclamation marks series #2: 
+
+// Remove all exclamation marks from the end of sentence.
+//"Hi!"     ---> "Hi"
+//"Hi!!!"   ---> "Hi"
+//"!Hi"     ---> "!Hi"
+//"!Hi!"    ---> "!Hi"
+//"Hi! Hi!" ---> "Hi! Hi"
+//"Hi"      ---> "Hi"
+
+// 1. Option:
+function remove(str) {  
+  while(str.slice(-1) === "!"){
+    str = str.slice(0, -1);
+  }
+  return str;
+}
+
+// 2. Option:
+function remove(str) {  
+  return str.replace(/!+$/, "");
+}
