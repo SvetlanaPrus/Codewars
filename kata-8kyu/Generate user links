@@ -9,15 +9,3 @@ function generateLink(user) {
   return `http://www.codewars.com/users/${encodeUser}`
 }
 
-// First try, fail:
-
-function generateLink(user) {
-  const link = "http://www.codewars.com/users/";
-  let userNameWithSpace = ""
-  
-  if(user.includes(" ")){
-    userNameWithSpace = user.split(" ").join("%20");
-  }
-  
-  return user.includes(" ")? link+userNameWithSpace : link+user;
-}
